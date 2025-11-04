@@ -12,9 +12,6 @@
 
 <body>
     <main class="container">
-
-
-        
         <div class="dashbord-box">
             <div class="dashbord__header">
                 <div class=" dashbord__header__user">
@@ -22,7 +19,7 @@
                     <div class="icon dashbord__header__userinfo">
                         <p>mahdi</p>
                         <p>091900416</p>
-    
+
                     </div>
                 </div>
                 <div class="icon dashbord__header__edit">
@@ -45,7 +42,7 @@
                             </svg>
                             <p>سفارش های من</p>
                         </div>
-    
+
                     </li>
                     <li class="dashbord__body__item">
                         <div class="item">
@@ -62,7 +59,7 @@
                             </svg>
                             <p>اطلاعات حساب کاربری</p>
                         </div>
-    
+
                     </li>
                     <li class="dashbord__body__item dashbord__body__item--badge ">
                         <div class="item">
@@ -78,7 +75,7 @@
                                     fill="#190D03" />
                             </svg>
                             <p>پیام ها</p>
-    
+
                         </div>
                         <span class="number">
                             3
@@ -99,9 +96,9 @@
                             </svg>
                             <p>نظرات من</p>
                         </div>
-    
+
                     </li>
-    
+
                     <li class="dashbord__body__item item-exit">
                         <div class="item">
                             <svg class="icon" viewBox="0 0 19 20" fill="none" xmlns="http://www.w3.org/2000/svg">
@@ -114,76 +111,192 @@
                             </svg>
                             <p>خروج</p>
                         </div>
-    
+
                     </li>
                 </ul>
-    
-    
+
+
             </div>
         </div>
-    
-    <!-- ! END  -->
-    
-    
-    
-        <div class="orders  orders__feature-order">
-            <div class="order__item">
-                <div class="badge--processing  feature__badge">
-                    <img class=" icon order__item__img" src="./assets/icon/icon Feature/Time Circle.svg" alt="">
+
+        <!-- ! END  -->
+
+        <div class="orders">
+            <div class="  orders__feature-order">
+                <div class="order__item">
+                    <div class="badge--processing  feature__badge">
+                        <img class=" icon order__item__img" src="./assets/icon/icon Feature/Time Circle.svg" alt="">
+                    </div>
+                    <div class="order__item__paragraph">
+                        <p class="order-stage">در حال پردازش</p>
+                        <p class="order-number">۵سفارش</p>
+                    </div>
                 </div>
-                <div class="order__item__paragraph">
-                    <p class="order-stage">در حال پردازش</p>
-                    <p class="order-number">۵سفارش</p>
+                <!--  -->
+                <div class="order__item">
+                    <div class="badge--delevered  feature__badge">
+                        <img class=" icon order__item__img" src="./assets/icon/icon Feature/Check Circle.svg" alt="">
+                    </div>
+                    <div class="order__item__paragraph">
+                        <p class="order-stage">تحویل شده</p>
+                        <p class="order-number">۵سفارش</p>
+                    </div>
                 </div>
+                <!--  -->
+                <div class="order__item">
+                    <div class="badge--return  feature__badge">
+                        <img class=" icon order__item__img"
+                            src="./assets/icon/icon Feature/circle-u-turn-left-up (1).svg" alt="">
+                    </div>
+                    <div class="order__item__paragraph">
+                        <p class="order-stage">مرجوعی</p>
+                        <p class="order-number">۵سفارش</p>
+                    </div>
+                </div>
+                <!--  -->
+                <div class="order__item">
+                    <div class="badge--canseled  feature__badge">
+                        <img class=" icon order__item__img" src="./assets/icon/icon Feature/Close Circle.svg" alt="">
+                    </div>
+                    <div class="order__item__paragraph">
+                        <p class="order-stage">لغو شده</p>
+                        <p class="order-number">۵سفارش</p>
+                    </div>
+                </div>
+
+                <!-- ! orders check and order history -->
             </div>
-            <!--  -->
-             <div class="order__item">
-                <div class="badge--delevered  feature__badge">
-                    <img class=" icon order__item__img" src="./assets/icon/icon Feature/Check Circle.svg" alt="">
-                </div>
-                <div class="order__item__paragraph">
-                    <p class="order-stage">تحویل شده</p>
-                    <p class="order-number">۵سفارش</p>
-                </div>
-            </div>
-            <!--  -->
-             <div class="order__item">
-                <div class="badge--return  feature__badge">
-                    <img class=" icon order__item__img" src="./assets/icon/icon Feature/circle-u-turn-left-up (1).svg" alt="">
-                </div>
-                <div class="order__item__paragraph">
-                    <p class="order-stage">مرجوعی</p>
-                    <p class="order-number">۵سفارش</p>
-                </div>
-            </div>
-            <!--  -->
-             <div class="order__item">
-                <div class="badge--canseled  feature__badge">
-                    <img class=" icon order__item__img" src="./assets/icon/icon Feature/Close Circle.svg" alt="">
-                </div>
-                <div class="order__item__paragraph">
-                    <p class="order-stage">لغو شده</p>
-                    <p class="order-number">۵سفارش</p>
-                </div>
-            </div>
-    
-            <!-- ! orders check and order history -->
             <div class="orders-check">
                 <div class="order-check">
                     <div class="badge badge--processing">
                         <img src="./assets/icon/icon Feature/Time Circle.svg" alt="">
                         <p class="order-check--paragraph">در حال پردازش</p>
                     </div>
-                 
+
+                    <div class="order-check__item">
+
+                        <div class="check-information--box">
+                            <div class="order-check__information">
+                                <div class="order__history">
+                                    <p class="order__history--paragraph">تاریخ تحویل سفارش</p>
+                                    <p>:۱۳۸۱/۰۱/۲۸</p>
+                                </div>
+                                <div class="order__id  ">
+                                    <p class="order-id--paragraph">کد سفارش</p>
+                                    <p>:۲۱۲۲۳</p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="price-box">
+                            <div class="order-check__price">
+
+                                <P>150000</P>
+                                <p>تومان</p>
+                            </div>
+
+                        </div>
+                    </div>
+
+
                 </div>
 
+                <div class="order__detail">
+                    <div class="detail-img">
+                        <div class="img-box">
+                            <img class="icon" src="./assets/image/svg/order/image (1).svg" alt="">
+                            <span class="img-box--number">2</span>
+                        </div>
+                        <div class="img-box">
+                            <img class="icon" src="./assets/image/svg/order/image 207.svg" alt="">
+                            <span class="img-box--number">2</span>
+                        </div>
+                        <div class="img-box">
+                            <img class="icon" src="./assets/image/svg/order/image.svg" alt="">
+                            <span class="img-box--number">2</span>
+                        </div>
+    
+                    </div>
+                    <div class="detail-btn">
+                        <a class="detail-btn" href="">
+                            <p>جزعیات سفارش</p>
+                            <img src="./assets/icon/Arrow Icon.svg" alt="">
+
+                        </a>
+                        
+                    </div>
+                </div>
             </div>
+            <!-- !===== -->
+             <div class="orders-check">
+                <div class="order-check">
+                    <div class="badge badge--processing">
+                        <img src="./assets/icon/icon Feature/Time Circle.svg" alt="">
+                        <p class="order-check--paragraph">در حال پردازش</p>
+                    </div>
+
+                    <div class="order-check__item">
+
+                        <div class="check-information--box">
+                            <div class="order-check__information">
+                                <div class="order__history">
+                                    <p class="order__history--paragraph">تاریخ تحویل سفارش</p>
+                                    <p>:۱۳۸۱/۰۱/۲۸</p>
+                                </div>
+                                <div class="order__id  ">
+                                    <p class="order-id--paragraph">کد سفارش</p>
+                                    <p>:۲۱۲۲۳</p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="price-box">
+                            <div class="order-check__price">
+
+                                <P>150000</P>
+                                <p>تومان</p>
+                            </div>
+
+                        </div>
+                    </div>
+
+
+                </div>
+
+                <div class="order__detail">
+                    <div class="detail-img">
+                        <div class="img-box">
+                            <img class="icon" src="./assets/image/svg/order/image (1).svg" alt="">
+                            <span class="img-box--number">2</span>
+                        </div>
+                        <div class="img-box">
+                            <img class="icon" src="./assets/image/svg/order/image 207.svg" alt="">
+                            <span class="img-box--number">2</span>
+                        </div>
+                        <div class="img-box">
+                            <img class="icon" src="./assets/image/svg/order/image.svg" alt="">
+                            <span class="img-box--number">2</span>
+                        </div>
+    
+                    </div>
+                    <div class="detail-btn">
+                        <a class="detail-btn" href="">
+                            <p>جزعیات سفارش</p>
+                            <img src="./assets/icon/Arrow Icon.svg" alt="">
+
+                        </a>
+                        
+                    </div>
+                </div>
+            </div>
+            
+
+
+
         </div>
 
 
     </main>
 
-        
+
 
 
 
